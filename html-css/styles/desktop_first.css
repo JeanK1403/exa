@@ -82,11 +82,15 @@ p{
 
 footer{
 	position: fixed;
-	height: 140px;
+	height: 90px;
+	text-align: center;
 }
 
 footer div{
+	height: 20px;
 	width: 100%;
+}
+
+footer nav{
 	float: none;
-	height: 50%;
 }

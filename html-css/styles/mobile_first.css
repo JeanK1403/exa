@@ -1,0 +1,11 @@
+
+@media screen (min-width: 1035px) {
+	
+	#container, header, footer{
+		width: 100%;
+	}
+
+	article{
+		width: 100%;
+	}
+}
