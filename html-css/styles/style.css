@@ -16,6 +16,15 @@
 	background-color: lightyellow;	
 }
 
+.unassigned{
+	text-decoration: underline;
+	color: blue;
+}
+
+section a{
+	text-decoration: none;
+	color: blue;
+}
 
 footer{
 	border-top: 2px solid black;
