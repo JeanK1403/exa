@@ -1,0 +1,13 @@
+
+h1, nav{
+	float: left;
+}
+
+h1{
+	width: 50%;
+}
+
+#img{
+	width: 990px;
+	height: 340px;
+}
