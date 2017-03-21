@@ -5,18 +5,30 @@ body{
 	padding: 4px;
 }
 
-#container, header, footer{
-	width: 1080px;
+#container{
+	width: 1000px;
 	margin: 0 auto;
+	height: 600px;
 }
 
-#container{
-	height: 450px;
+#content{
+	height: 30%;
 	overflow-y: scroll;
 }
 
+header div{
+	height: 80px;
+}
+
+h1{
+	float: left;
+}
+
+h1, nav{
+	width: 50%;
+}
+
 nav{
-	list-style-type: none;
 	float: right;
 }
 
@@ -35,14 +47,6 @@ nav li a {
 #home{
 	text-decoration: none;
 	border-left: none;
-}
-
-h1{
-	float: left;
-}
-
-h1, nav{
-	width: 50%;
 }
 
 
@@ -83,6 +87,7 @@ p{
 footer{
 	position: fixed;
 	height: 90px;
+	width: 1000px;
 	text-align: center;
 }
 
@@ -93,4 +98,5 @@ footer div{
 
 footer nav{
 	float: none;
+	margin: 0 auto;
 }
