@@ -2,17 +2,17 @@
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	height: 100%;
+	height: 565px;
 }
 
 #content{
 	overflow-y: scroll;
-	height: 20%;
+	height: 44%;
 }
 
-/*h1, nav, ul{
+h1, nav, ul{
 	margin: 0px;
-}*/
+}
 
 h1{
 	font-size: -webkit-xxx-large;
@@ -61,6 +61,13 @@ article{
 	border: 3px solid black;
 }
 
+footer{
+	position: fixed;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+}
+
 footer div{
 	display: none;
 }
@@ -69,6 +76,12 @@ footer div{
 @media (min-width: 990px) {
 	#container{
 		width: 1000px;
+		height: 565px;
+	}
+
+	#content{
+		position: relative;
+		height: 24%;
 	}
 
 	h1{
@@ -83,7 +96,7 @@ footer div{
 	nav li{
 		float: left;
 		background-color: white;
-		width: 20px;
+		width: 100px;
 	}
 
 	nav li a{
@@ -94,5 +107,36 @@ footer div{
 	#home{
 		border-left: none;
 		background-color: white;
+	}
+
+	article{
+		float: left;
+		padding: 8px;
+	}
+
+	.art_1{
+		width: 35%;
+	}
+
+	.art_2{
+		width: 30%;
+	}
+
+	footer{
+		width: 990px;
+		height: 70px;
+	}
+
+	footer div{
+		display: block;
+		width: 440px;
+		height: 20px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	footer nav{
+		float: none;
+		margin: 0 auto;
 	}
 }
