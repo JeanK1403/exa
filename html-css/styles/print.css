@@ -1,0 +1,50 @@
+*{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#container nav, .img, .img2, br{
+	display: none;
+}
+
+h1{
+	text-align: center;
+}
+
+#box{
+	border: none;
+	background-color: white;	
+}
+
+.blue{
+	color: blue;
+}
+
+.green{
+	color: green;
+}
+
+.red{
+	color: red;
+	font-size: small;
+}
+
+.unassigned{
+	text-decoration: underline;
+	color: blue;
+}
+
+article{
+	text-align: left;
+}
+
+section a{
+	text-decoration: none;
+	color: blue;
+}
+
+footer{
+	border-top: 2px solid black;
+	text-align: center;
+}

@@ -1,3 +1,5 @@
+/*----------------Contenedores----------------*/
+
 #container{
 	width: 100%;
 	text-align: center;
@@ -10,16 +12,14 @@
 	height: 44%;
 }
 
+
+/*----------------Header----------------*/
+
 h1, nav, ul{
 	margin: 0px;
 }
 
-h1{
-	font-size: -webkit-xxx-large;
-}
-
 nav ul{
-	list-style: none;
 	padding: 0px;
 }
 
@@ -37,30 +37,33 @@ nav li a{
 
 #home{
 	background-color: gray;
-	color: black;
-	text-decoration: none;
 }
 
+/*----------------Imagenes----------------*/
 .img, .img2{
 	width: 100%;
+	margin: 0 auto;
 }
 
 .img2{
 	height: 100px;
 }
 
-article{
-	text-align: left;
-}
+/*----------------P//Box----------------*/
 
 #container p{
 	margin: 0px;
+}
+
+p, a{
+	font-size: x-small;
 }
 
 #box{
 	border: 3px solid black;
 }
 
+/*----------------Footer----------------*/
 footer{
 	position: fixed;
 	bottom: 0px;
@@ -73,7 +76,9 @@ footer div{
 }
 
 
+/*----------------Desktop----------------*/
 @media (min-width: 990px) {
+
 	#container{
 		width: 1000px;
 		height: 565px;
@@ -84,6 +89,7 @@ footer div{
 		height: 24%;
 	}
 
+/*----------------Header----------------*/
 	h1{
 		float: left;
 	}
@@ -109,6 +115,7 @@ footer div{
 		background-color: white;
 	}
 
+/*----------------Article----------------*/
 	article{
 		float: left;
 		padding: 8px;
@@ -122,6 +129,11 @@ footer div{
 		width: 30%;
 	}
 
+	p, a{
+		font-size: small;
+	}
+
+/*----------------Footer----------------*/
 	footer{
 		width: 990px;
 		height: 70px;
@@ -138,5 +150,13 @@ footer div{
 	footer nav{
 		float: none;
 		margin: 0 auto;
+	}
+}
+
+@media (max-width: 460px){
+
+	.img{
+		width: 460px;
+		height: 100px;
 	}
 }
