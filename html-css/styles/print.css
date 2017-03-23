@@ -1,10 +1,10 @@
 *{
 	width: 100%;
 	margin: 0px;
-	padding: 0px;
+	padding: 2px;
 }
 
-#container nav, .img, .img2, br{
+nav, .img, .img2, br{
 	display: none;
 }
 
