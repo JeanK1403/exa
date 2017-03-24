@@ -15,6 +15,10 @@
 	font-size: small;
 }
 
+h1, nav{
+	text-align: center;
+}
+
 nav ul{
 	list-style: none;	
 }
@@ -51,4 +55,47 @@ section a{
 footer{
 	border-top: 1px solid black;
 	text-align: center;
+}
+
+/*//////////////////////////////////////////*/
+/*///////////////Desktop////////////////////*/
+/*//////////////////////////////////////////*/
+
+@media (min-width: 990px){
+	
+	nav li{
+		background-color: white;
+	}
+
+	nav li a{
+		border-left: 2px solid black;
+	}
+
+	#home{
+		border-left: none;
+		background-color: white;
+	}
+}
+
+
+/*//////////////////////////////////////////*/
+/*///////////////Mobile/////////////////////*/
+/*//////////////////////////////////////////*/
+
+@media (max-width: 990px){
+
+	nav li{
+		background-color: lightgray;
+	}
+
+	#home{
+		background-color: gray;
+	}
+}
+
+
+@media (max-width: 460px){
+	p{
+		font-size: small;
+	}
 }
