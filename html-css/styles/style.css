@@ -22,7 +22,7 @@
 	color: red;
 }
 
-p i, .red{
+p i, .red em{
 	font-size: smaller;	
 }
 
@@ -42,14 +42,14 @@ nav li a{
 	color: blue;
 }
 
-#home{
+.home{
 	text-decoration: none;
 	border-left: none;
 	color: black;	
 }
 
 /*//////////////////////////////////////////*/
-/*//////////Box-Article-Section/////////////*/
+/*//////////Box-Article-Box/////////////*/
 /*//////////////////////////////////////////*/
 
 #box{
@@ -66,7 +66,7 @@ article{
 	text-align: left;
 }
 
-section a{
+#box a{
 	text-decoration: none;
 	color: blue;
 }
@@ -95,7 +95,7 @@ footer{
 		border-left: 2px solid black;
 	}
 
-	#home{
+	.home{
 		border-left: none;
 		background-color: white;
 	}
@@ -112,7 +112,7 @@ footer{
 		background-color: lightgray;
 	}
 
-	#home{
+	.home{
 		background-color: gray;
 	}
 }
