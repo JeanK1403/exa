@@ -17,15 +17,22 @@ nav, .img, .img2/*, br*/{
 /*////////////////////Titulos/////////////////////////////*/
 /*////////////////////////////////////////////////////////*/
 
-.blue{
-	color: blue;
+.blue::after  { 	
+	content: "Sub-section";
+	text-indent: 0; 	
+	display: block;
+}  
+
+.blue { 
+	color: blue;	
+	text-indent: -9999px;
 }
 
 .green{
 	color: green;
 }
 
-.red{
+.red, .red_2{
 	color: red;
 	font-size: small;
 }
