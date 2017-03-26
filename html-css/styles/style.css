@@ -22,7 +22,11 @@
 	color: red;
 }
 
-p i, .red_2{
+.red_2{
+	font-size: medium;		
+}
+
+p i{
 	font-size: smaller;	
 }
 
